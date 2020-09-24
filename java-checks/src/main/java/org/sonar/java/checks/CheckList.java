@@ -91,6 +91,7 @@ import org.sonar.java.checks.security.SecureXmlTransformerCheck;
 import org.sonar.java.checks.security.ServerCertificatesCheck;
 import org.sonar.java.checks.security.SocketUsageCheck;
 import org.sonar.java.checks.security.StandardInputReadCheck;
+import org.sonar.java.checks.security.UserEnumerationCheck;
 import org.sonar.java.checks.security.VerifiedServerHostnamesCheck;
 import org.sonar.java.checks.security.XxeActiveMQCheck;
 import org.sonar.java.checks.security.ZipEntryCheck;
@@ -747,6 +748,7 @@ public final class CheckList {
       UselessIncrementCheck.class,
       UselessPackageInfoCheck.class,
       UselessParenthesesCheck.class,
+      UserEnumerationCheck.class,
       UseSwitchExpressionCheck.class,
       UtilityClassWithPublicConstructorCheck.class,
       ValueBasedObjectsShouldNotBeSerializedCheck.class,
